@@ -1,4 +1,4 @@
 dnschanger_detector
 ===================
 
-Detect DNS Changer and Notify Visitors
+Detect DNSChanger and Notify Visitors

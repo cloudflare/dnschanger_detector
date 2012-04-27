@@ -1,0 +1,25 @@
+{
+    "name": "Visitor DNSChanger Detector",
+    "description": "Display a warning to visitors to your site that are using DNS servers associated with the DNSChanger malware",
+    "keywords": ["malware scan"],
+    "version": "0.0.1",
+    "contributors": [
+        {
+            "name": "Michael Sofaer",
+            "email": "michael@cloudflare.com"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cloudflare/dnschanger_detector.git"
+    },
+    "main": "./public/javascripts/dnschanger_detector.js",
+    "config": {
+        "details" : {
+            "Category": "Malware Detection",
+            "Language": "English",
+            "Price": "Free",
+            "Restrictions": "None"
+        }
+    }
+}
