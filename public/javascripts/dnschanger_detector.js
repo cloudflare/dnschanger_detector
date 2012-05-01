@@ -12,10 +12,21 @@ CloudFlare.define("dnschanger_detector", ["cloudflare/dom"], function(dom){
         message.appendChild(info);
         document.body.appendChild(message);
     }
-    var test_site = "http://www.dns-ok.us/test.js"
-    var script = dom.createElement("script")
-    dom.setAttribute(script, "type", "text/javascript")
-    dom.setAttribute(script, "src", test_site)
-})
+    function detectorScript(){
+        var test_site = "http://www.dns-ok.us/test.js"
+        var script = dom.createElement("script")
+        dom.setAttribute(script, "type", "text/javascript")
+        dom.setAttribute(script, "src", test_site)
+    }
+    function detectorImage(){
+        var img = new Image();
+        dom.addEventListener(img, "load", function(){
+            if (img.height == 55) {
+                window.dnsChangerPresent()
+            }
+        })
+        dom.setAttribute(img, "src", 'http://www.dns-ok.be/ko.png')
+    }
 
-CloudFlare.require(["dnschanger_detector"], function(){dnsChangerPresent()})
+    detectorImage()
+})
