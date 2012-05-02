@@ -29,12 +29,12 @@
                 "type": "select",
                 "options": [
                     {
-                        "label": "McAfee info page",
-                        "value": "http://home.mcafee.com/VirusInfo/VirusProfile.aspx?key=1098704"
+                        "label": "OpenDNS",
+                        "value": "http://www.opendns.com/dns-changer"
                     },
                     {
-                        "label": "F-Secure info page",
-                        "value": "http://www.f-secure.com/v-descs/dnschang.shtml"
+                        "label": "DCWG",
+                        "value": "http://www.dcwg.org/fix/"
                     }
                 ]
             }
