@@ -20,6 +20,24 @@
             "Language": "English",
             "Price": "Free",
             "Restrictions": "None"
-        }
+        },
+        "interface": [
+            {
+                "id": "fix_url",
+                "name": "Pick a URL",
+                "description": "Infected users will be notified and will be shown a URL where they can get more information about the infection and a way to fix it",
+                "type": "select",
+                "options": [
+                    {
+                        "label": "McAfee info page",
+                        "value": "http://home.mcafee.com/VirusInfo/VirusProfile.aspx?key=1098704"
+                    },
+                    {
+                        "label": "F-Secure info page",
+                        "value": "http://www.f-secure.com/v-descs/dnschang.shtml"
+                    }
+                ]
+            }
+        ]
     }
 }
