@@ -24,6 +24,14 @@ The JavaScript is packaged for use with cloudflare.js on CloudFlare, but it will
 on non-CloudFlare sites if you add a script tag for cloudflare.js
 
     <script type="text/javascript" src="//ajax.cloudflare.com/cdn-cgi/nexp/cloudflare.js" async></script>
+    <script type="text/javascript">
+        window.CloudFlare = window.CloudFlare || [];
+        CloudFlare.push(function(require, define) {
+            CloudFlare.push({ paths: { "dnschanger_detector": "//ajax.cloudflare.com/cdn-cgi/nexp/apps/" }});
+            define("dnschanger_detector/config", function() { return { "fix_url" : "http://www.opendns.com/dns-changer" }});
+            require(["dnschanger_detector"]);
+        });
+    </script>
 
 ##Why
 
