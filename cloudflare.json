@@ -39,7 +39,7 @@
                 "options": [
                     {
                         "label": "OpenDNS",
-                        "value": "http://www.opendns.com/dns-changer"
+                        "value": "https://www.opendns.com/dns-changer"
                     },
                     {
                         "label": "DCWG",
