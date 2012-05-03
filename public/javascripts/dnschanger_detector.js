@@ -28,7 +28,7 @@ CloudFlare.define("dnschanger_detector", ["cloudflare/dom", "dnschanger_detector
         })
     }
     function detectorScript(){
-        var test_site = "http://cfdnscheck.cloudflare.com/test.js"
+        var test_site = "//cfdnscheck.cloudflare.com/test.js"
         var script = dom.createElement("script")
         dom.setAttribute(script, "type", "text/javascript")
         dom.setAttribute(script, "src", test_site)
