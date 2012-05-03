@@ -15,6 +15,15 @@
     },
     "main": "./public/javascripts/dnschanger_detector.js",
     "config": {
+        "assets" : {
+            "logos" : {
+                "200px": "./public/images/dnschanger_detector-200.png",
+                "132px": "./public/images/dnschanger_detector-132.png"
+            },
+            "detail_page": [
+                "./public/images/banner_example.png"
+            ]
+        },
         "details" : {
             "Category": "Malware Detection",
             "Language": "English",
