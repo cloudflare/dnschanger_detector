@@ -11,7 +11,7 @@ CloudFlare.define("dnschanger_detector", ["cloudflare/dom", "cloudflare/config"]
         message.appendChild(warning);
         var info = dom.createElement("p");
         dom.setAttribute(info, "style", 'color: #404040; font-size: 12px; margin-left: 10px; margin-top: 0;');
-        var fix_url = ('fix_url' in config && fix_url !== "")? config.fix_url : "http://www.dcwg.org/fix/";
+        var fix_url = ('fix_url' in config && fix_url !== "")? config.fix_url : "http://www.opendns.com/dns-changer";
         info.innerHTML = 'Please visit <a href="'+ fix_url +'" target="blank">'+ fix_url +'</a> for help fixing your DNS. <strong>You may lose access to the Internet after July 9, 2012 if you don\'t fix this.</strong> For additional information regarding the DNS changer malware, please visit the <a href="http://www.fbi.gov/news/stories/2011/november/malware_110911" target="blank">FBI\'s website</a>. <span style="color: #A5A5A5">DNS Changer warning powered by <a href="http://www.cloudflare.com/" style="color: #A5A5A5; text-decoration: underline;">CloudFlare</a>.</span>';
         message.appendChild(info);
         var icon = dom.createElement("td");
