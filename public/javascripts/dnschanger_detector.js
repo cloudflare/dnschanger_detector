@@ -28,7 +28,7 @@ CloudFlare.define("dnschanger_detector", ["cloudflare/dom", "cloudflare/config"]
         })
     }
     function detectorScript(){
-        var test_site = "http://www.dns-ok.us/test.js"
+        var test_site = "http://cfdnscheck.cloudflare.com/test.js"
         var script = dom.createElement("script")
         dom.setAttribute(script, "type", "text/javascript")
         dom.setAttribute(script, "src", test_site)
@@ -40,8 +40,8 @@ CloudFlare.define("dnschanger_detector", ["cloudflare/dom", "cloudflare/config"]
                 window.dnsChangerPresent()
             }
         })
-        dom.setAttribute(img, "src", 'http://cfdnscheck.cloudflare.com/test.js')
+        dom.setAttribute(img, "src", 'http://www.dns-ok.be/ko.png')
     }
 
-    detectorImage()
+    detectorScript()
 })
