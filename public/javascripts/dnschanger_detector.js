@@ -1,4 +1,4 @@
-CloudFlare.define("dnschanger_detector", ["cloudflare/dom", "cloudflare/config"], function(dom, config){
+CloudFlare.define("dnschanger_detector", ["cloudflare/dom", "dnschanger_detector/config"], function(dom, config){
     window.dnsChangerPresent = function(){
         var table = dom.createElement("table");
         var tr = dom.createElement("tr");
