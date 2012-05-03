@@ -15,8 +15,9 @@ DNSChanger Detector works by attaching an alerting function to the window, and
 making a JSONP call to a special URL. The IP resolved for that URL
 by the infected servers serves a file that calls the alerting function.
 
-The alert is banner at the top of the page with information about how to fix the infected computer. It looks like
-https://www.cloudflare.com/images/apps/dnschanger_detector/banner_example.png
+The alert is banner at the top of the page with information about how to fix the infected computer.
+![Example Visitor DNSChanger Banner](https://www.cloudflare.com/images/apps/dnschanger_detector/banner_example.png)
+
 
 ##For Non-CloudFlare Sites
 
@@ -32,6 +33,8 @@ on non-CloudFlare sites if you add a script tag for cloudflare.js
             require(["dnschanger_detector"]);
         });
     </script>
+    
+To learn more about Cloudflare JS - http://js.cloudflare.com/
 
 ##Why
 
