@@ -6,11 +6,11 @@ CloudFlare.define("dnschanger_detector", ["cloudflare/dom", "dnschanger_detector
         dom.setAttribute(table, "style", 'z-index: 100000; width:100%; position: absolute; top: 0; left: 0; margin: 0 0 20px 0; padding: 10px; background-color: #f0f0f0; color: #404040; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; border-bottom: 1px solid #a5a5a5;');
         var message = dom.createElement("td");
         var warning = dom.createElement("p");
-        dom.setAttribute(warning, "style", 'font-size: 16px; font-weight: bold; color: #be2424; margin-bottom: 5px; margin-left: 10px;');
+        dom.setAttribute(warning, "style", 'font-size: 16px; font-weight: bold; color: #be2424; margin-bottom: 5px; margin-left: 10px; margin-top:0; margin-right: 0;');
         warning.innerHTML = 'Your computer has DNS settings that mean you probably have the DNS Changer malware.';
         message.appendChild(warning);
         var info = dom.createElement("p");
-        dom.setAttribute(info, "style", 'color: #404040; font-size: 12px; margin-left: 10px; margin-top: 0;');
+        dom.setAttribute(info, "style", 'color: #404040; font-size: 12px; margin-left: 10px; margin-top: 0; margin-right: 0; margin-bottom:0');
         var fix_url = ('fix_url' in config && config.fix_url !== "")? config.fix_url : "http://www.opendns.com/dns-changer";
         info.innerHTML = 'Please visit <a href="'+ fix_url +'" target="blank">'+ fix_url +'</a> for help fixing your DNS. <strong>You may lose access to the Internet after July 9, 2012 if you don\'t fix this.</strong> For additional information regarding the DNS changer malware, please visit the <a href="http://www.fbi.gov/news/stories/2011/november/malware_110911" target="blank">FBI\'s website</a>. <span style="color: #A5A5A5">DNS Changer warning powered by <a href="http://www.cloudflare.com/" style="color: #A5A5A5; text-decoration: underline;">CloudFlare</a>.</span>';
         message.appendChild(info);
