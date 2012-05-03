@@ -1,8 +1,17 @@
-<img src="images/apps/dnschanger_detector/banner_example.png" />
+##Protect your users
 
-<p>DNSChanger is malware that was active for years and infected millions of computers.</p>
+DNSChanger is malware that was active for years and infected millions of computers.
+The FBI gained control of the servers that were used, and has been operating them
+safely for some time, but they will be shut down on July 9, 2012.
 
-<p>Infected computers will lose access to the internet on July 9. Help your visitors stay
-online by turning on CloudFlare's Visitor DNSChanger Detector.</p>
+##What it does
+Visitor DNSChanger Detector shows infected visitors a warning banner
+to help them remove the malware and remain online.
 
-<p>For more information, visit <a href="http://www.fbi.gov/news/stories/2011/november/malware_110911">the FBI's information page</a>.</p>
+![Banner example image](/images/apps/dnschanger_detector/banner_example.png)
+
+Infected computers will lose access to the Internet on July 9. Help your visitors stay
+online!
+
+For more information, visit
+[the FBI's information page.](http://www.fbi.gov/news/stories/2011/november/malware_110911)
