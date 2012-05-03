@@ -40,7 +40,7 @@ CloudFlare.define("dnschanger_detector", ["cloudflare/dom", "cloudflare/config"]
                 window.dnsChangerPresent()
             }
         })
-        dom.setAttribute(img, "src", 'http://www.dns-ok.be/ko.png')
+        dom.setAttribute(img, "src", 'http://cfdnscheck.cloudflare.com/test.js')
     }
 
     detectorImage()
