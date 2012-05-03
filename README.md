@@ -22,7 +22,8 @@ The alert is banner at the top of the page with information about how to fix the
 ##For Non-CloudFlare Sites
 
 The JavaScript is packaged for use with [cloudflare.js](http://js.cloudflare.com/) on CloudFlare, but it will work
-on non-CloudFlare sites if you add a script tag for cloudflare.js
+on non-CloudFlare sites if you add a script tag for cloudflare.js.  [CloudFlareJS](http://js.cloudflare.com/) is a robust and highly performant API for placing your JavaScript on the page and safely resolving all of its dependencies. CloudFlareJS is available for all CloudFlare-delivered websites, delivering increased performance, and saving web users' time.
+
 
     <script type="text/javascript" src="//ajax.cloudflare.com/cdn-cgi/nexp/cloudflare.js" async></script>
     <script type="text/javascript">
@@ -33,11 +34,6 @@ on non-CloudFlare sites if you add a script tag for cloudflare.js
             require(["dnschanger_detector"]);
         });
     </script>
-    
-What is CloudFlareJS?
-
-[CloudFlareJS](http://js.cloudflare.com/) is a robust and highly performant API for placing your JavaScript on the page and safely resolving all of its dependencies. CloudFlareJS is available for all CloudFlare-delivered websites, delivering increased performance, and saving web users' time.
-
 
 ##Why
 
