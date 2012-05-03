@@ -1,6 +1,8 @@
-DNSChanger is malware that was active for years and infected millions of computers.
+<img src="images/apps/dnschanger_detector/banner_example.png" />
 
-Infected computers will lost access to the internet on July 9, help your visitors stay
-online by turning on CloudFlare's Visitor DNS Changer Detector
+<p>DNSChanger is malware that was active for years and infected millions of computers.</p>
 
-http://www.fbi.gov/news/stories/2011/november/malware_110911
+<p>Infected computers will lose access to the internet on July 9. Help your visitors stay
+online by turning on CloudFlare's Visitor DNSChanger Detector.</p>
+
+<p>For more information, visit <a href="http://www.fbi.gov/news/stories/2011/november/malware_110911">the FBI's information page</a>.</p>
