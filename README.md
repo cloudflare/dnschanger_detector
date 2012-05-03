@@ -44,3 +44,7 @@ do what we can to keep people from being kicked off the Internet when that happe
 
 For more background, see
 http://www.fbi.gov/news/stories/2011/november/malware_110911
+
+##License
+
+This software is [MIT licensed](http://www.opensource.org/licenses/MIT).
