@@ -38,7 +38,7 @@ on non-CloudFlare sites if you add a script tag for cloudflare.js.  [CloudFlareJ
 
 CloudFlare is trying to make the Internet better for everyone.
 
-The Federal Bureau of Investigation (FBI) has been operating DNS servers
+The DNSChanger Working Group [DCWG](http://dcwg.org) has been operating DNS servers
 to keep infected users online, but they are going to stop soon (July 9, 2012). We want to
 do what we can to keep people from being kicked off the Internet when that happens.
 
