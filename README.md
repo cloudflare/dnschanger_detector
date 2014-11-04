@@ -1,4 +1,17 @@
-#Detect DNSChanger and Notify Visitors
+# Detect DNSChanger and Notify Visitors
+
+## Deprecation Notice
+
+[In the summer of 2012](http://blog.cloudflare.com/cloudflare-opendns-work-together-to-save-the/), the Internet Systems Consortium turned off the DNS servers previously utilized by the DNSChanger malware.
+CloudFlare developed this application to help alert affected Internet users, and link them to resources to correct their DNS settings to ensure continued Internet access.
+
+The shut down date has long since passed, and this application has long since been removed from our platform.
+It is no longer maintained, and it does not meet our current guidelines for applications on our platform.
+For updated information on building applications, please visit the [App Developer Documentation](http://appdev.cloudflare.com/).
+
+The original README continues below.
+
+---
 
 ##About
 This JavaScript is a CloudFlare app that checks whether a visitor is
